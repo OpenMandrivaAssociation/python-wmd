@@ -1,7 +1,7 @@
 %define oname wmd
 %define name python-%{oname}
 %define version 0.1.2
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: Driver for the Nintendo Wii Remote
 Name: %{name}
