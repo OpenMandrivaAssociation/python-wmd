@@ -1,0 +1,14 @@
+--- wmd-0.1.2/wmd/Config.py.uinput	2006-12-18 04:18:57.000000000 +0100
++++ wmd-0.1.2/wmd/Config.py	2006-12-29 20:30:28.000000000 +0100
+@@ -34,9 +34,9 @@
+ ## If I'm using IO_MODES['UINPUT'] I'll need to
+ ## Set the path of my uinput device
+ ##
+-'UINPUT_DEV': "/dev/misc/uinput",
++#'UINPUT_DEV': "/dev/misc/uinput",
+ #UINPUT_DEV: "/dev/input/uinput",  ##ubuntu - you need to modprobe uinput first
+-#UINPUT_DEV: "/dev/uinput",
++'UINPUT_DEV': "/dev/uinput",
+ ##
+ ## I'll also check that I have the right UNIX rights for it
+ ##

@@ -1,0 +1,13 @@
+--- wmd-0.1.2/wmd/Config.py.compiz	2006-12-29 20:34:08.000000000 +0100
++++ wmd-0.1.2/wmd/Config.py	2006-12-29 20:35:36.000000000 +0100
+@@ -70,8 +70,8 @@
+ 
+   'U': ['key', [ 'KEY_LEFTCTRL' ]  ],    # Toggles LED 1
+   'D': ['key', [ 'KEY_LEFTCTRL', 'KEY_LEFTALT', 'BTN_LEFT' ] ],    #         LED 2
+-  'L': ['key', [ 'KEY_LEFTALT' ] ],    #         LED 3
+-  'R': ['key', [ 'KEY_F8' ] ]     #         LED 4
++  'L': ['key', [ 'KEY_LEFTCTRL', 'KEY_LEFTALT', 'KEY_LEFT' ] ],    #         LED 3
++  'R': ['key', [ 'KEY_LEFTCTRL', 'KEY_LEFTALT', 'KEY_RIGHT' ] ]     #         LED 4
+ },
+ ##
+ ##
