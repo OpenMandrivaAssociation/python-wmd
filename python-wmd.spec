@@ -54,3 +54,44 @@ rm -rf %{buildroot}
 %{py_puresitedir}/*.egg-info
 
 
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.1.2-7mdv2010.0
++ Revision: 442544
+- rebuild
+
+* Fri Jan 02 2009 Funda Wang <fwang@mandriva.org> 0.1.2-6mdv2009.1
++ Revision: 323408
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0.1.2-5mdv2009.0
++ Revision: 259861
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.1.2-4mdv2009.0
++ Revision: 247709
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.1.2-2mdv2008.1
++ Revision: 140738
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sat Dec 30 2006 Olivier Blin <oblin@mandriva.com> 0.1.2-2mdv2007.0
++ Revision: 102790
+- preload uinput module at boot
+
+* Fri Dec 29 2006 Olivier Blin <oblin@mandriva.com> 0.1.2-1mdv2007.1
++ Revision: 102622
+- make left and right directionnal keys act as Ctrl+Alt+<key> to get compiz cube rotation
+- do not hardcode default Wiimote address
+- use /dev/uinput as uinput device
+- create setup.py file to build/install
+- initial WMD release
+- use lowercase name
+- Create python-WMD
+
