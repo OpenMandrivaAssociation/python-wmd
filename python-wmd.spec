@@ -14,7 +14,7 @@ Patch2: wmd-0.1.2.2-compiz.patch
 Source1: setup.py
 License: GPL
 Group: System/Kernel and hardware
-Url: http://www.forthewiin.org/
+Url: https://www.forthewiin.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
